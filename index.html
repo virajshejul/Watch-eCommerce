@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------------------------ TITLE ------------------------------>
+    <title>FlexWatch Ecommerce Website</title>
+
+    <!------------------------------ CSS STYLESHEET LINK ------------------------------>
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------------------ FONT-AWESOME LINK ------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!------------------------------ FONTS CSS FILE ------------------------------>
+    <link rel="stylesheet" href="font/font.css">
+</head>
+<body>
+<!------------------------------ HEADER ------------------------------>
+<header class="header">
+    <div class="header_container row">
+        <div class="logo">
+            <a href="#" class="sub_heading">FlexWatch</a>
+        </div>
+        <div class="head">
+            <div class="search_container">
+                <input type="text" placeholder="Search">
+                <div id="btn_container">
+                    <div class="static search_button">
+                        <button>
+                            <span>Search</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="btn_container">
+                <div class="static">
+                    <button>
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="btn_container" class="cart_btn">
+            <div class="static row shop">
+                <button class="cart_icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </button>
+            </div>
+        </div>
+        <!------------------------------ NAVBAR ------------------------------>
+        <nav class="hex_navbar">
+            <div id="btn_container">
+                <div class="static">
+                    <button class="nav_toggle">
+                        <span><i class="fa-solid fa-bars"></i></span>
+                    </button>
+                </div>
+            </div>
+            <ul class="nav_toggle">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#best_seller">best seller</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#testimonials">testimonials</a></li>
+                <li><a href="#blogs">blogs</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="overlay"></div>
+
+<!------------------------------ HOME SECTION ------------------------------>
+<div class="home container" id="home">
+    <div id="slide">
+        <div class="item row">
+            <div class="image">
+                <img src="images/watch 1.png" alt="">
+            </div>
+            <div class="content">
+                <div class="left">
+                    <h1 class="heading_text">
+                        FlexWatch
+                    </h1>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                    <a href="#about">
+                        <div id="btn_container" class="left_btn">
+                            <div class="static">
+                                <button>
+                                    <span>
+                                        learn more
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item row">
+            <div class="image">
+                <img src="images/watch 2.png" alt="">
+            </div>
+            <div class="content">
+                <div class="left">
+                    <h1 class="heading_text">
+                        FlexWatch
+                    </h1>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                    <a href="#about">
+                        <div id="btn_container" class="left_btn">
+                            <div class="static">
+                                <button>
+                                    <span>
+                                        learn more
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item row">
+            <div class="image">
+                <img src="images/watch 3.png" alt="">
+            </div>
+            <div class="content">
+                <div class="left">
+                    <h1 class="heading_text">
+                        FlexWatch
+                    </h1>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                    <a href="#about">
+                        <div id="btn_container" class="left_btn">
+                            <div class="static">
+                                <button>
+                                    <span>
+                                        learn more
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br>
+<div class="directional" id="btn_container">
+    <div class="static row">
+        <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+</div>
+
+<!------------------------------ MAIN ------------------------------>
+<main>
+
+    <!------------------------------ ABOUT SECTION ------------------------------>
+    <section id="about" class="about">
+        <div class="about_overlay row">
+            <div class="abt_img row">
+                <div class="abt_container_left row">
+                    <div class="morph_container row">
+                        <img src="images/watch 1.png" alt="" class="morph_image">
+                        <img src="images/watch 2.png" alt="" class="morph_image">
+                        <img src="images/watch 3.png" alt="" class="morph_image">
+                    </div>
+                    <div class="box_container row">
+                        <div class="box bx_one"></div>
+                        <div class="box bx_two"></div>
+                        <div class="box bx_three"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="left_abt">
+                <div class="glass_wrapper">
+                    <div class="glass_item row">
+                        <div class="glass_inner row">
+                            <div class="heading_text">why choose us</div>
+                            <p class="abt_descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur a suscipit eos culpa dolorum iste quibusdam explicabo ea aspernatur veniam eveniet, molestiae hic accusantium ut facere omnis perspiciatis cum numquam!</p>
+                            <div id="btn_container">
+                                <div class="static">
+                                    <button>
+                                        <span>
+                                            learn more
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------ BEST SELLER SECTION ------------------------------>
+    <section id="best_seller">
+        <div class="title">
+            <h1 class="text-shadow"> -- Best Seller -- </h1>
+            <div class="tags">
+                <p class="text-shadow"><small>Best seller product this week!</small></p>
+            </div>
+        </div>
+        <div class="cart_slider row">
+            <div class="cart_card" data-reveal>
+                <div class="card_content">
+                    <img src="images/watch 1.png" alt="" class="card_img">
+                    <h1 class="card_title sub_heading">watch 1</h1>
+                    <div class="card_body">
+                        <div class="card_star">
+                            <span class="rating_value">4.5</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <p class="card_price">$650.99</p>
+                    </div>
+                    <div class="card_footer" id="btn_container">
+                        <button class="btn btn_success"><span>buy now</span></button>
+                        <button class="btn btn_border" id="btn_border"><span>add to cart</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_card" data-reveal>
+                <div class="card_content">
+                    <img src="images/watch 2.png" alt="" class="card_img">
+                    <h1 class="card_title sub_heading">watch 2</h1>
+                    <div class="card_body">
+                        <div class="card_star">
+                            <span class="rating_value">4.5</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <p class="card_price">$600.99</p>
+                    </div>
+                    <div class="card_footer" id="btn_container">
+                        <button class="btn btn_success"><span>buy now</span></button>
+                        <button class="btn btn_border" id="btn_border"><span>add to cart</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_card" data-reveal>
+                <div class="card_content">
+                    <img src="images/watch 3.png" alt="" class="card_img">
+                    <h1 class="card_title sub_heading">watch 3</h1>
+                    <div class="card_body">
+                        <div class="card_star">
+                            <span class="rating_value">4.5</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <p class="card_price">$677.99</p>
+                    </div>
+                    <div class="card_footer" id="btn_container">
+                        <button class="btn btn_success"><span>buy now</span></button>
+                        <button class="btn btn_border" id="btn_border"><span>add to cart</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_card" data-reveal>
+                <div class="card_content">
+                    <img src="images/watch 1.png" alt="" class="card_img">
+                    <h1 class="card_title sub_heading">watch 4</h1>
+                    <div class="card_body">
+                        <div class="card_star">
+                            <span class="rating_value">4.5</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <p class="card_price">$550.99</p>
+                    </div>
+                    <div class="card_footer" id="btn_container">
+                        <button class="btn btn_success"><span>buy now</span></button>
+                        <button class="btn btn_border" id="btn_border"><span>add to cart</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_card" data-reveal>
+                <div class="card_content">
+                    <img src="images/watch 2.png" alt="" class="card_img">
+                    <h1 class="card_title sub_heading">watch 5</h1>
+                    <div class="card_body">
+                        <div class="card_star">
+                            <span class="rating_value">4.5</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <p class="card_price">$750.99</p>
+                    </div>
+                    <div class="card_footer" id="btn_container">
+                        <button class="btn btn_success"><span>buy now</span></button>
+                        <button class="btn btn_border" id="btn_border"><span>add to cart</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_card" data-reveal>
+                <div class="card_content">
+                    <img src="images/watch 3.png" alt="" class="card_img">
+                    <h1 class="card_title sub_heading">watch 6</h1>
+                    <div class="card_body">
+                        <div class="card_star">
+                            <span class="rating_value">4.5</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <p class="card_price">$850.99</p>
+                    </div>
+                    <div class="card_footer" id="btn_container">
+                        <button class="btn btn_success"><span>buy now</span></button>
+                        <button class="btn btn_border" id="btn_border"><span>add to cart</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart_sidebar" id="cart_sidebar">
+            <div class="sidebar_close" id="sidebar_close">
+                <i class="fa-solid fa-close"></i>
+            </div>
+            <div class="cart_menu">
+                <h3 class="sub_heading">my cart</h3>
+                <div class="cart_items">
+                    
+                </div>
+            </div>
+            <div class="sidebar_footer">
+                <div class="total_amount row">
+                    <h5>total</h5>
+                    <div class="cart_total">$0.00</div>
+                </div>
+                <button class="checkout_btn">checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------ GALLERY SECTION ------------------------------>
+    <section class="gallery" id="gallery">
+        <div class="title">
+            <h1 class="text-shadow"> -- gallery -- </h1>
+            <div class="tags">
+                <p class="text-shadow"><small>check out what we have in store!</small></p>
+            </div>
+        </div>
+        <div class="gallery_container">
+            <div class="gallery_item tall" data-reveal>
+                <img src="images/gallery_img1.jpg" data-src>
+                <div class="sub_heading">Men's collection</div>
+            </div>
+            <div class="gallery_item wide" data-reveal>
+                <img src="images/gallery_img2.png" data-src>
+                <div class="sub_heading">women's collection</div>
+            </div>
+            <div class="gallery_item" data-reveal>
+                <img src="images/gallery_img3.jpg" data-src>
+                <div class="sub_heading">accessories</div>
+            </div>
+            <div class="gallery_item tall" data-reveal>
+                <img src="images/gallery_img4.jpg" data-src>
+                <div class="sub_heading">20% off collection</div>
+            </div>
+            <div class="gallery_item wide" data-reveal>
+                <img src="images/gallery_img5.png" data-src>
+                <div class="sub_heading">children's collection</div>
+            </div>
+            <div class="gallery_item" data-reveal>
+                <img src="images/gallery_img6.jpg" data-src>
+                <div class="sub_heading">most popular</div>
+            </div>
+            <div class="gallery_item rem" data-reveal>
+                <img src="images/gallery_img7.jpg" data-src>
+                <div class="sub_heading">luxury collection</div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------ TESTIMONIALS SECTION ------------------------------>
+    <section class="testimonials" id="testimonials">
+        <div class="title">
+            <h1 class="text-shadow"> -- testimonials -- </h1>
+            <div class="tags">
+                <p class="text-shadow"><small>see what our customers say about us!</small></p>
+            </div>
+        </div>
+        <div class="testi_slider_container">
+            <div class="testi_track">
+                <div class="testi_container">
+                    <div class="testimonials_content">
+                        <h1 class="heading_text">
+                            Hi, I'm <br>
+                            <span>Dominic Torretto</span>
+                        </h1>
+                        <div class="test_wrapper">
+                            <p class="testi_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione deserunt!                                </p>
+                        </div>
+                    </div>
+                    <figure class="testimonials_banner">
+                        <div class="img_holder" style="--width: 512; --height: 684;">
+                            <img src="images/testi_img (5).jpg" width="512" height="684" class="img_cover">
+                        </div>
+                        <h3 class="watch_type">Luxury Watch</h3>
+                    </figure>
+                </div>
+                <div class="testi_container">
+                    <div class="testimonials_content">
+                        <h1 class="heading_text">
+                            Hi, I'm <br>
+                            <span>Raymond Reddington</span>
+                        </h1>
+                        <div class="test_wrapper">
+                            <p class="testi_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione deserunt!                                </p>
+                        </div>
+                    </div>
+                    <figure class="testimonials_banner">
+                        <div class="img_holder" style="--width: 512; --height: 684;">
+                            <img src="images/testi_img (4).jpg" width="512" height="684" class="img_cover">
+                        </div>
+                        <h3 class="watch_type">Men's Watch</h3>
+                    </figure>
+                </div>
+                <div class="testi_container">
+                    <div class="testimonials_content">
+                        <h1 class="heading_text">
+                            Hi, I'm <br>
+                            <span>Oliver Queen</span>
+                        </h1>
+                        <div class="test_wrapper">
+                            <p class="testi_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione deserunt!                                </p>
+                        </div>
+                    </div>
+                    <figure class="testimonials_banner">
+                        <div class="img_holder" style="--width: 512; --height: 684;">
+                            <img src="images/testi_img (3).jpg" width="512" height="684" class="img_cover">
+                        </div>
+                        <h3 class="watch_type">Accessory Watch</h3>
+                    </figure>
+                </div>
+                <div class="testi_container">
+                    <div class="testimonials_content">
+                        <h1 class="heading_text">
+                            Hi, I'm <br>
+                            <span>Miss Barbie</span>
+                        </h1>
+                        <div class="test_wrapper">
+                            <p class="testi_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione deserunt!                                </p>
+                        </div>
+                    </div>
+                    <figure class="testimonials_banner">
+                        <div class="img_holder" style="--width: 512; --height: 684;">
+                            <img src="images/testi_img (2).jpg" width="512" height="684" class="img_cover">
+                        </div>
+                        <h3 class="watch_type">Women Watch</h3>
+                    </figure>
+                </div>
+                <div class="testi_container">
+                    <div class="testimonials_content">
+                        <h1 class="heading_text">
+                            Hi, I'm <br>
+                            <span>Lady Bella</span>
+                        </h1>
+                        <div class="test_wrapper">
+                            <p class="testi_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione deserunt!                                </p>
+                        </div>
+                    </div>
+                    <figure class="testimonials_banner">
+                        <div class="img_holder" style="--width: 512; --height: 684;">
+                            <img src="images/testi_img (1).jpg" width="512" height="684" class="img_cover">
+                        </div>
+                        <h3 class="watch_type">Women Watch</h3>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------ BLOG SECTION ------------------------------>
+    <section id="blogs" class="blogs">
+        <div class="title">
+            <h1 class="text-shadow"> -- our blogs -- </h1>
+            <div class="tags">
+                <p class="text-shadow"><small>Explore our blogs on watches, trends, and more!
+                </small></p>
+            </div>
+        </div>
+        <div class="blog_container row">
+            <div class="blog_card" data-reveal="left">
+                <div class="blog_img">
+                    <img src="images/gallery_img1.jpg" alt="">
+                </div>
+                <div class="blog_post">
+                    <div class="watch_blog row">
+                        <h1 class="sub_heading">why we love flexWatch</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde doloribus quaerat sint dicta impedit reiciendis ipsa modi pariatur provident</p>
+                        <div id="btn_container">
+                            <div class="static">
+                                <button>
+                                    <span>learn more</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog_card" data-reveal="right">
+                <div class="blog_img">
+                    <img src="images/gallery_img1.jpg" alt="">
+                </div>
+                <div class="blog_post">
+                    <div class="watch_blog row">
+                        <h1 class="sub_heading">what should we know</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde doloribus quaerat sint dicta impedit reiciendis ipsa modi pariatur provident</p>
+                        <div id="btn_container">
+                            <div class="static">
+                                <button>
+                                    <span>learn more</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog_card" data-reveal="left">
+                <div class="blog_img">
+                    <img src="images/gallery_img1.jpg" alt="">
+                </div>
+                <div class="blog_post">
+                    <div class="watch_blog row">
+                        <h1 class="sub_heading">beautiful watches</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde doloribus quaerat sint dicta impedit reiciendis ipsa modi pariatur provident</p>
+                        <div id="btn_container">
+                            <div class="static">
+                                <button>
+                                    <span>learn more</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+    <!------------------------------ FOOTER ------------------------------>
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_logo" data-reveal="left">
+                <h2>FlexWatch</h2>
+                <p>Timeless Pieces for the modern era</p>
+            </div>
+            <div class="footer_links">
+                <h2>quick links</h2>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#gallery">Shop</a></li>
+                    <li><a href="#blogs">blogs</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_socials">
+                <h2>follow us</h2>
+                <div class="social_icons row">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer_newsletter" data-reveal="right">
+                <h2>newsletter signup</h2>
+                <p>get updates on new arrival and offers!</p>
+                <form action="#">
+                    <input type="email" placeholder="enter your email" required>
+                    <div id="btn_container">
+                        <div class="static">
+                            <button type="submit">subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>&copy; 2024 FlexWatch | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!------------------------------ BACK TO TOP ------------------------------>
+    <a href="#top" class="back_to_top" data-back-top>0%</a>
+
+    <!------------------------------ SCRIPT FILE ------------------------------>
+<script src="main.js"></script>
+</body>
+</html>

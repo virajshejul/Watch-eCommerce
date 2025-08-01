@@ -1,0 +1,28 @@
+roots:
+    --text: #c8bcd4; /* Light color matching your text color */
+    --clr: #162933; /* Darker tone similar to your gradient */
+    --clr2: #2b4457; /* Lighter shade for gradient */
+    --gradgap: 40%; /* Adjust as needed */
+    --gradoffset: 70%; /* Adjust as needed */
+    --hue: 195; /* Adjust based on your color scheme */
+    --sat: 40%; /* Adjust saturation */
+    --hue2: 200; /* Slight variation for hover effect */
+    --sat2: 30%; /* Adjust hover saturation */
+    --blur: 10px; /* Blur level for effects */
+    /* Primary Colors */
+    --primary-light: #203a43; /* Lighter Teal */
+
+    /* Secondary Colors */
+    --secondary-color: #56cfe1; /* Aqua Blue */
+    --secondary-light: #26e6af; /* Light Aqua */
+    --secondary-dark: #2a9d8f; /* Darker Aqua */
+
+    /* Neutral Colors */
+    --text-secondary: #8795a1; /* Muted Grayish Blue */
+    --background-light: #eaeff1; /* Light Background */
+    --background-dark: #18253c; /* Dark Background */
+
+    /* Additional */
+    --ff-recoleta: "Recoleta", serif;
+    --ff-cinzel: "Cinzel", serif;
+
